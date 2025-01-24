@@ -1,5 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", serif;
+  max-width: 900px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: hsl(35, 100%, 98%);
+  height: 100vh;
+}
+
+h3,
+p {
+  margin-bottom: 10px;
+}
+
+main {
+  flex: 1;
+}
+
+/* NAV BAR  */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  align-items: center;
+}
+.nav-menu li {
+  list-style-type: none;
+}
+.nav-menu a {
+  text-decoration: none;
+  color: black;
+}
+.nav-menu a:hover {
+  text-decoration: none;
+  color: black;
+  color: rgb(0, 128, 255);
+  text-decoration: underline;
+}
+
+/* MAIN SECTIONS */
+
+section {
+  margin: 40px 0;
+}
+main h2 {
+  margin-bottom: 1rem;
+}
+
+/* ABOUT ME  */
+
+.about-me-container {
+  display: flex;
+  justify-content: flex-start;
+}
+.about-me-text-container {
+  margin-right: 30px;
+}
+#profile-pic {
+  width: 20%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* PROJECT SECTION  */
+
+.project-detail-container {
+  cursor: pointer;
+  color: black;
+}
+.project-detail-container h3:hover {
+  color: rgb(0, 128, 255);
+}
+.project-detail-container h3:active {
+  color: rgb(129, 192, 255);
+}
+.project-details {
+  margin-bottom: 10px;
+  display: none;
+}
+
+.project-details img {
+  width: 100%;
+  height: auto;
+}
+
+/* SKILLS SECTION  */
+
+.fab {
+  font-size: 2em;
+  margin-right: 10px;
+}
+.contact-container a {
+  color: black;
+}
+.contact-container a:hover {
+  color: rgb(0, 128, 255);
+}
+
+/* FOOTER  */
+
+footer {
+  text-align: center;
+  margin-top: 100px;
 }
