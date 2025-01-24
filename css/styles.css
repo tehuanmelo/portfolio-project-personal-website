@@ -102,7 +102,7 @@ main h2 {
 
 /* SKILLS SECTION  */
 
-.fab {
+.fab, .fas{
   font-size: 2em;
   margin-right: 10px;
 }
