@@ -5,13 +5,21 @@ This is a simple and elegant personal portfolio website showcasing projects, ski
 ## Table of Contents
 
 - [About](#about)
+- [Live Demo](#live-demo)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Folder Structure](#folder-structure)
+- [Demo](#demo)
+
+
 
 ## About
 
 This project is a personal portfolio website designed to highlight your work, skills, and contact details. The layout is clean and responsive, making it accessible on different devices.
+
+## Live Demo
+
+Check out the live version of the portfolio [here](https://tehuanmelo.github.io/portfolio-project-personal-website/).
 
 ## Features
 
@@ -44,4 +52,6 @@ project-root/
 │   │   └── project-three.jpg
 ```
 
-
+## Demo
+![Project Screenshot](./assets/images/demo-1.png)
+![Project Screenshot](./assets/images/demo-2.png)
